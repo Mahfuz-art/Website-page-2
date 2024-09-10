@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .topnav {
+ overflow: hidden;
+ background-color: aqua;
+  }
+  .topnav a {
+    float: left;
+    color: greenyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .topnav a:hover {
+    background-color: blue;
+color: black;
+  }
+  .topnav a.active {
+    background-color: aquamarine;
+    color:green
+  }
+</style>
+</head>
+<body>
+  <h1>Sceneries</h1>
+ <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="about.html">About me</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contactus.html">Contact us</a>
+ </div>
+ <section>
+    <img class="mySlides" src="pic1.jpg" height="300" width="600" >
+   <img class="mySlides" src="pic3.jpg" height="300" width="600">
+   <img class="mySlides" src="pic4.jpg" height="300" width="600">
+   <img class="mySlides" src="scenerio bd 1.jpg" height="300" width="600">
+   <img class="mySlides" src="scenerio bd 2.png" height="300" width="600">
+   <img class="mySlides" src="scenerio bd 3.jpeg" height="300" width="600">
+
+   
+  </section>
+  
+<script>
+var myIndex = 0
+carousel()
+function carousel() {
+  var i;
+var x = document.getElementsByClassName("mySlides")
+for (i = 0; i < x.length; i++) {
+ x[i].style.display = "none";
+}
+myIndex++;
+if (myIndex > x.length) {myIndex = 1}
+x[myIndex-1].style.display="block";
+setTimeout(carousel, 3000);
+
+}
+
+</script>
+<br>
+<span style="font-size: 40px">
+
+  <center>Welcome to all in this website</center>
+
+</span>
+<br>
+<section class="sec-doc">
+  <h2>Food</h2>
+  <p>Food is any substance consumed to provide nutritional support for an organism. Food is usually of plant, animal or fungal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals.</p>
+  
+</section>
+<p>
+  
+  <img src="pizza.jpeg"   style="width: 350px ; margin-left: 30px; float : right">
+  Pizza (Italian: [ˈpittsa], Neapolitan: [ˈpittsə]) is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.), which is then baked at a high temperature, traditionally in a wood-fired oven.[1] A small pizza is sometimes called a pizzetta. A person who makes pizza is known as a pizzaiolo.
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1>Pastry</h1>
+
+<p>
+  <img src="pastry.jpeg" style="width: 350px ; height: 350px; margin-left: 30px; float: right">
+  Pastry refers to a variety of doughs, as well as the sweet and savoury baked goods made from them. These goods are often called pastries as a synecdoche, and the dough may be accordingly called pastry dough for clarity. Sweetened pastries are often described as bakers' confectionery
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section style="margin-bottom: 0;">All writes are reserved by Mahfuz</section>
+</body>
+</html>
